@@ -6,7 +6,7 @@ To initialize a session, take a look below:
 
 ```php
 require('VoltericMetal.php');
-$token = "YOUR_API_ID";
+$token = "YOUR_API_TOKEN";
 
 $volteric = new VoltericCloud();
 $volteric->login($token);
