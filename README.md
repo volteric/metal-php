@@ -5,12 +5,11 @@ In order to get started, you need to download the `VoltericCloud.php` file and r
 To initialize a session, take a look below:
 
 ```php
-require('VoltericCloud.php');
-$api_id = "YOUR_API_ID";
-$api_token = "YOUR_API_TOKEN";
+require('VoltericMetal.php');
+$token = "YOUR_API_ID";
 
 $volteric = new VoltericCloud();
-$volteric->login($api_id, $api_token);
+$volteric->login($token);
 ```
 
 Once the session has been initialized, you can use the `$volteric` variable as you would with our [API](https://docs.volteric.network) making sure you remove the `/v2` from your request.
